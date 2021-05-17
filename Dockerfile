@@ -11,3 +11,4 @@ RUN         apk update && \
             pip install git+git://github.com/piqueserver/piqueserver.git@269356a20c5858c7290f0a43ce5a1f319efe8647 && \
             apk del delete_me
 RUN         pip install websockets
+RUN         pip install geoip2
