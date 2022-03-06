@@ -8,7 +8,7 @@ RUN         apk update && \
             python --version && \
             pip --version && \
             export TMPDIR='/var/tmp' && \
-            pip install git+git://github.com/piqueserver/piqueserver.git@269356a20c5858c7290f0a43ce5a1f319efe8647 && \
+            pip install git+git://github.com/voxide-aos/piqueserver.git@3b46766fea6d90ab3cb3c15332e9bf6d5dfbd04f && \
             apk del delete_me
 RUN         pip install websockets==8.1
 RUN         pip install geoip2
